@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>X埋め込みテスト</title>
+  <style>
+    body { font-family: system-ui, sans-serif; padding: 20px; }
+    .wrap { max-width: 680px; margin: 0 auto; }
+    .box { border: 1px solid #ddd; padding: 12px; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>タイムライン表示テスト</h1>
+    <div class="box">
+      <a class="twitter-timeline"
+   data-height="600"
+   href="https://twitter.com/search?q=%23jr_official_X&src=typed_query&f=live">
+  #jr_official_X の投稿
+</a>
+    </div>
+  </div>
+
+
+  <!-- ← bodyのいちばん最後でOK -->
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+</html>
