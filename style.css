@@ -349,9 +349,10 @@ border～プロパティで三角を作り、positionで位置調整 */
     margin-bottom: 30px;
   }
 
-  #footer iframe {
-  max-width: 100%;
+  .twitter-tweet {
+  max-width: 100%;　!important
   box-sizing: border-box;
 }
 
 }
+
