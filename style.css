@@ -348,4 +348,10 @@ border～プロパティで三角を作り、positionで位置調整 */
     width: 100%;
     margin-bottom: 30px;
   }
+
+  #footer iframe {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
 }
