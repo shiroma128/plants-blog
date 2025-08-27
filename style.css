@@ -350,10 +350,11 @@ border～プロパティで三角を作り、positionで位置調整 */
   }
 
   #footer .twitter-tweet {
-  max-width: 100%;　!important
+  max-width: 100% important;
   box-sizing: border-box;
 }
 
 }
+
 
 
