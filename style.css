@@ -301,7 +301,7 @@ border～プロパティで三角を作り、positionで位置調整 */
 
 /* SP */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
   
   /* header */
   #header .site-title {
@@ -355,6 +355,7 @@ border～プロパティで三角を作り、positionで位置調整 */
   }
 
 }
+
 
 
 
