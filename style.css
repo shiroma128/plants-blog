@@ -347,7 +347,7 @@ border～プロパティで三角を作り、positionで位置調整 */
   #footer .item {
     width: 100%;
     margin-bottom: 30px;
-    overflow-x: hidden;
+/*     overflow-x: hidden; */
   }
 
 /*   #footer .twitter-tweet {
@@ -355,6 +355,7 @@ border～プロパティで三角を作り、positionで位置調整 */
   } */
 
 }
+
 
 
 
