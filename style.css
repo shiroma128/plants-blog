@@ -301,7 +301,7 @@ border～プロパティで三角を作り、positionで位置調整 */
 
 /* SP */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px) {
   
   /* header */
   #header .site-title {
@@ -347,6 +347,7 @@ border～プロパティで三角を作り、positionで位置調整 */
   #footer .item {
     width: 100%;
     margin-bottom: 30px;
+    overflow-x: hidden;
   }
 
   #footer .twitter-tweet {
@@ -354,6 +355,7 @@ border～プロパティで三角を作り、positionで位置調整 */
   }
 
 }
+
 
 
 
